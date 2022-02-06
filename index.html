@@ -23,9 +23,12 @@
 <body>
     <!--Header section-->
     <header>
+
+        <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">         
-                <a class="navbar-brand title-resize" href="#"><img class="resize d-inline-block align-middle me-2" src="images/home_logo.png" alt="">HOMEY</a>
+            <div class="container">
+                <a class="navbar-brand title-resize" href="#"><img class="resize d-inline-block align-middle me-2"
+                        src="images/home_logo.png" alt="">HOMEY</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +46,54 @@
                 </div>
             </div>
         </nav>
+
+        <!--image slider/carosel-->
+        <section class="container mb-5">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/Apartment1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Apartment2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Duplex1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Duplex2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Hall1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Hall2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </header>
+
+    <main>
+        <!--Search bar-->
+        <section class="container mb-2">
+            <div class="d-flex justify-content-center">
+                <input type="text" class="search-bar rounded-pill" placeholder="Where do you wanna go?">
+                <a href="#" id="search"><i class="fas fa-search-location"></i></a>
+            </div>
+        </section>
+        
+    </main>
     <!--Bootstrap script link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

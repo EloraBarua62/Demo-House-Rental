@@ -18,3 +18,21 @@ body{
 .nav-item-resize{
     font-weight: 500;
 }
+.search-bar{
+    width: 40rem;
+    height: 4rem;
+    border: solid 2px rgb(49, 48, 48);
+}
+#search{
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(179, 176, 176, 0.616);
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
